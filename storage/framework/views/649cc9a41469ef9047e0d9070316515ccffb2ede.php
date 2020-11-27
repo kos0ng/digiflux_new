@@ -47,11 +47,9 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="<?php echo e(asset('/assets/images/logo.png')); ?>" alt="alternative"></a> 
+        <a class="navbar-brand logo-image page-scroll" href="#header"><img src="<?php echo e(asset('/assets/images/logo.svg')); ?>" alt="alternative"></a> 
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,51 +59,29 @@
         <!-- end of mobile menu toggle button -->
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="#influencer">Influencer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#features">Features</a>
+                    <a class="nav-link page-scroll" href="#features">Brand</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#stat">Statistics</a>
+                    <a class="nav-link page-scroll" href="#section4">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#contact">Contact Us</a>
                 </li>
-                <li class="nav-item">
-                    <a href="" class="btn-solid-lg" style="margin-top: -3%;padding: 1.2rem 1.2rem 1.2rem 1.2rem">Log In</a>
-                </li>
-                <!-- Dropdown Menu -->          
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
-                    </div>
-                </li> -->
-                <!-- end of dropdown menu -->
-<!-- 
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
-                </li> -->
             </ul>
-          <!--   <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span> -->
+             <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="btn-custom" >Masuk</a>
+                    <a href="#daftar" class="btn-custom-blue page-scroll">Daftar</a>
+                </li>
+            </ul>
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
@@ -115,24 +91,21 @@
     <header id="header" class="header">
         <div class="header-content">
             <div class="container">
-                <div class="row" style="margin-top: -5%">
-                    <div class="col-lg-6"></div>
-                    <div class="col-lg-6">
+                <div class="row" style="margin-top: -5%;">
+                    <div class="col-lg-12 text-center">
                         <div class="text-container">
-                            <h2>Tingkatkan penjualan<br>bisnis anda dengan<br>influencer yang tepat!</h2>
-                            <p style="">Sekarang promosi melalui influencer dapat <br>dilakukan dengan mudah, murah, dan aman</p>
-                            <a class="btn-solid-lg page-scroll" href="#header2" style="width: 400px;font-size: 20px;text-align: center"></i>Mulai Sekarang!</a>
+                            <h1>Semua bisa jadi influencer!</h1>
+                            <p style="color: #525252;font-size: 16px;">Dapatkan wawasan self branding, buat kontenmu makin keren,<br> dan hasilkan passive income dari media sosialmu!</p>
+                            <a class="btn-custom-blue page-scroll" href="#header2" style="margin-top: 1%;padding:1.5rem 1rem 1.5rem 1rem;">Gabung Sekarang!</a>
                             <!-- <h1>MOBILE APP <br>FOR <span id="js-rotating">DESIGNERS, MARKETERS, DEVELOPERS</span></h1>
                             <p class="p-large">Leno is one of the easiest and feature packed marketing automation apps in the market. Download it today!</p>
                             <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
                             <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a> -->
                         </div>
-                    </div> <!-- end of col -->
-                    <!-- <div class="col-lg-6">
-                        <div class="image-container">
-                            <img class="img-fluid" src="<?php echo e(asset('/assets/images/header-iphone.png')); ?>" alt="alternative">
-                        </div> 
-                    </div> --> 
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/images/HERO1.svg" class="img-fluid" style="padding-top: 5%;margin-left: 3%">
+                        </div>
+                    </div> 
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
         </div> <!-- end of header-content -->
@@ -143,56 +116,51 @@
     <div id="header2" class="basic-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6" >
-                    <h2 style="text-align: left;">Segala kemudahan <br>fitur untuk bisnis<br> anda!</h2>
+                <div class="col-lg-12 text-center">
+                    <h2>Benefits of teaming with us</h2>
+                    <p style="color: #ffffff;font-size: 14px;">Kami menciptakan tempat untuk Influencer dapat berkembang dengan dengan<br> semangat dan passion.</p>
+                </div>
+                <div class="col-lg-12" style="margin-top: 5%">
                     <div class="row">
-                        <div class="col-md-1">
-                            <img src="<?php echo e(asset('/assets/images/check.png')); ?>" style="width: 150%">
+                        <div class="col-lg-1">
+                            <img src="<?php echo e(asset('/assets/images/check.png')); ?>" style="width: 100%">
                         </div>
-                        <div class="col-md-10">
-                            <span style="font-weight: bold;">Pencarian influencer gratis yang sesuai dengan preferensi bisnis anda</span>  
+                        <div class="col-lg-5">
+                            <h3>
+                                Menjadi Influencer yang dilirik Brand
+                            </h3>
+                            <p style="color: #ffffff;font-size: 14px;">Bersama kami, kamu sebagai Influencer akan<br> mendapatkan atensi dari Brand yang terkait dengan<br> profile sosial media kamu.</p>
                         </div>
-                    </div>
-                    <div class="row" style="margin-top: 3%">
-                        <div class="col-md-1">
-                            <img src="<?php echo e(asset('/assets/images/check.png')); ?>" style="width: 150%">
+                        <div class="col-lg-1">
+                            <img src="<?php echo e(asset('/assets/images/check.png')); ?>" style="width: 100%">
                         </div>
-                        <div class="col-md-10">
-                            <span style="font-weight: bold;">Perhitungan budget dan estimasi yang tepat</span>  
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 3%">
-                        <div class="col-md-1">
-                            <img src="<?php echo e(asset('/assets/images/check.png')); ?>" style="width: 150%">
-                        </div>
-                        <div class="col-md-10">
-                            <span style="font-weight: bold;">Sistem pembayaran yang sesuai dengan capaian hasil promosi</span>  
+                        <div class="col-lg-5">
+                            <h3>
+                                Mendapat penghasilan terukur
+                            </h3>
+                            <p style="color: #ffffff;font-size: 14px;">Kami akan menghubungkan kamu sebagai Influencer<br> supaya dapat terus menerima tawaran kerjasama dengan<br> brand ternama.</p>
                         </div>
                     </div>
-                    <div class="row" style="margin-top: 3%">
-                        <div class="col-md-1">
-                            <img src="<?php echo e(asset('/assets/images/check.png')); ?>" style="width: 150%">
+                    <div class="row">
+                        <div class="col-lg-1">
+                            <img src="<?php echo e(asset('/assets/images/check.png')); ?>" style="width: 100%">
                         </div>
-                        <div class="col-md-10">
-                            <span style="font-weight: bold;">Live data hasil promosi</span>  
+                        <div class="col-lg-5">
+                            <h3>
+                                Membangun citra yang baik
+                            </h3>
+                            <p style="color: #ffffff;font-size: 14px;">Kami akan membantu kamu sebagai Influencer untuk<br> meningkatkan citra positif sehingga mampu menjadi<br> Influencer yang dikagumi.</p>
+                        </div>
+                        <div class="col-lg-1">
+                            <img src="<?php echo e(asset('/assets/images/check.png')); ?>" style="width: 100%">
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>
+                                Tidak perlu pusing mengurus mitra
+                            </h3>
+                            <p style="color: #ffffff;font-size: 14px;">Terkadang mitra memang suka bawel dan banyak sekali<br> permintaan, untuk itu kami akan mengurusnya agar kamu<br> tidak perlu lagi pusing menghadapi mitra.</p>
                         </div>
                     </div>
-                </div> <!-- end of col -->
-                  <div class="col-lg-6">
-
-                    <!-- Video Preview -->
-                    <div class="image-container">
-                        <div class="video-wrapper">
-                            <!-- <a class="popup-youtube" href="" data-effect="fadeIn"> -->
-                                <img class="img-fluid" src="<?php echo e(asset('/assets/images/finance_app_monochromatic.png')); ?>" alt="alternative">
-                                <!-- <span class="video-play-button">
-                                    <span></span>
-                                </span> -->
-                            <!-- </a> -->
-                        </div> <!-- end of video-wrapper -->
-                    </div> <!-- end of image-container -->
-                    <!-- end of video preview -->
-
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -200,332 +168,176 @@
 
 
     <!-- Testimonials -->
-    <div class="slider-1">
+    <div id="influencer" class="slider-1">
         <div class="container">
             <div class="row" style="margin-top: -6%;margin-bottom: 5%">
                 <div class="col-lg-12" style="text-align: center;">
-                    <h2 style="color: #050B38">Our Influencer</h2>
+                    <h2 style="color: #525252">3 Langkah Cepat Jadi Influencer</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
-                <div class="col-lg-12">
-
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="<?php echo e(asset('/assets/images/testimonial-1.jpg')); ?>" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-author">Rachel Vennya</p>
-                                            <p class="testimonial-text">Lifestyle<br>Instagram 5M Followers<br>Youtube</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="<?php echo e(asset('/assets/images/testimonial-1.jpg')); ?>" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-author">Keanu</p>
-                                            <p class="testimonial-text">Lifestyle<br>Instagram 5M Followers<br>Youtube</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="<?php echo e(asset('/assets/images/testimonial-1.jpg')); ?>" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-author">Dara Arafah</p>
-                                            <p class="testimonial-text">Lifestyle<br>Instagram 5M Followers<br>Youtube</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="<?php echo e(asset('/assets/images/testimonial-1.jpg')); ?>" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-author">Backpacker Tampan</p>
-                                            <p class="testimonial-text">Lifestyle<br>Instagram 5M Followers<br>Youtube</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                            
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
+                <div class="col-lg-4 text-center">
+                    <div class="d-flex justify-content-center" style="margin-bottom: 5%">
+                            <img src="assets/images/Benefit1.svg" class="img-fluid" style="">
+                        </div>
+                        <h4>Registrasi</h4>
+                        <p style="color: #525252;font-size: 14px;">Pastikan kamu sudah teregristasi menjadi<br> Influencer pada aplikasi ini</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="d-flex justify-content-center" style="margin-bottom: 5%">
+                            <img src="assets/images/Benefit2.svg" class="img-fluid" style="">
+                        </div>
+                        <h4>Terkoneksi</h4>
+                        <p style="color: #525252;font-size: 14px;">Dapatkan notifikasi kerjasama dari Brand<br> yang tertarik dengan profile kamu</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="d-flex justify-content-center" style="margin-bottom: 5%">
+                            <img src="assets/images/Benefit3.svg" class="img-fluid" style="">
+                        </div>
+                        <h4>Dapat Komisi</h4>
+                        <p style="color: #525252;font-size: 14px;">Dapatkan pembayaran setelah kamu<br> melakukan kerjasama</p>
+                </div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of slider-1 -->
     <!-- end of testimonials -->
-  
-     <div id="preview2" class="basic-1" style="background: url('<?php echo e(asset('/assets/images/Rectangle_27.png')); ?>') center no-repeat;">
+
+ <div id="section3" class="basic-1" style="background: url('assets/images/Testimoni.svg') center center no-repeat;padding-bottom:0rem;padding-top: 4rem">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6" >
-                    <h2 style="text-align: left;">Anda Influencer?</h2>
-                    <h3 style="text-align: left;">Bergabung bersama kami untuk berkembang bersama menjangkau lebih banyak orang</h3>
-                </div> <!-- end of col -->
-                  <div class="col-lg-6">
-                    <button class="btn-solid-lg" style="margin-top: 25%;margin-left: 35%;width: 70%;font-size: 150%">Gabung Sekarang</button>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->  
-
-    <!-- Features -->
-    <div id="features" class="tabs">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Promosi semudah belanja online<br> dengan 3 langkah jitu</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-
-                <!-- Tabs Links -->
-                <ul class="nav nav-tabs" id="lenoTabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-cog"></i>Create</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-binoculars"></i>Select</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-search"></i>Result</a>
-                    </li>
-                </ul>
-                <!-- end of tabs links -->
-
-
-                <!-- Tabs Content-->
-                <div class="tab-content" id="lenoTabsContent">
-                    
-                    <!-- Tab -->
-                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-                        <div class="container">
-                            <div class="row">
-                                
-                                <div class="col-lg-4">
-                                </div>
-                                <div class="col-lg-4">
-                                    <img class="img-fluid" src="<?php echo e(asset('/assets/images/tambah.png')); ?>" alt="alternative">
-                                    <div class="card-body">
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title" style="text-align: center">Tambah Produk & Buat Promosi</h4>
-                                                <p style="text-align: center">Deskripsi</p>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="col-lg-4"></div>
-
-                            </div> <!-- end of row -->
-                        </div> <!-- end of container -->
-                    </div> <!-- end of tab-pane -->
-                    <!-- end of tab -->
-
-                    <!-- Tab -->
-                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
-                        <div class="container">
-                            <div class="row">
-
-                                                                <div class="col-lg-4">
-                                </div>
-                                <div class="col-lg-4">
-                                    <img class="img-fluid" src="<?php echo e(asset('/assets/images/pilih.png')); ?>" alt="alternative">
-                                    <div class="card-body">
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title" style="text-align: center">Pilih Influencer</h4>
-                                                <p style="text-align: center">Deskripsi</p>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="col-lg-4"></div>
-
-                            </div> <!-- end of row -->
-                        </div> <!-- end of container -->
-                    </div> <!-- end of tab-pane -->
-                    <!-- end of tab -->
-
-                    <!-- Tab -->
-                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                </div>
-                                <div class="col-lg-4">
-                                    <img class="img-fluid" src="<?php echo e(asset('/assets/images/hasil.png')); ?>" alt="alternative">
-                                    <div class="card-body">
-                                            <div class="text-wrapper">
-                                                <h4 class="card-title" style="text-align: center">Dapatkan Hasil</h4>
-                                                <p style="text-align: center">Deskripsi</p>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="col-lg-4"></div>
-                                    
-                            </div> <!-- end of row -->
-                        </div> <!-- end of container -->
-                    </div><!-- end of tab-pane -->
-                    <!-- end of tab -->
-
-                </div> <!-- end of tab-content -->
-                <!-- end of tabs content -->
-
-            </div> <!-- end of row --> 
-        </div> <!-- end of container --> 
-    </div> <!-- end of tabs -->
-    <!-- end of features -->
-
-   <div id="preview2" class="basic-1" style="background: url('<?php echo e(asset('/assets/images/Rectangle_28.png')); ?>') center no-repeat;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6" >
-                    <h2 style="text-align: left;">Tunggu Apalagi?</h2>
-                    <h3 style="text-align: left;">Buat bisnismu melejit dengan menjangkau banyak orang</h3>
-                    <button class="btn-solid-lg" style="margin-top: 5%;width: 70%;font-size: 130%">Mulai Sekarang!</button>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->  
-
-    <!-- Statistics -->
-    <div class="counter" id="stat">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Counter -->
-                    <div id="counter" style="margin-left: -5%">
-                        <div class="cell">
-                            <div class="counter-value number-count" data-count="126">1</div>
-                            <p class="counter-info">Influencer</p>
+                <div class="col-lg-12" style="margin-top: 0%">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="d-flex justify-content-center" style="margin-bottom: 5%">
+                                <img src="assets/images/influencer.svg" class="img-fluid" style="width: 60%">
+                            </div>
                         </div>
-                        <div class="cell">
-                            <div class="counter-value number-count" data-count="223">1</div>
-                            <p class="counter-info">Company Helped</p>
-                        </div>
-                        <div class="cell">
-                            <div class="counter-value number-count" data-count="125">1</div>
-                            <p class="counter-info">Good Reviews</p>
-                        </div>
-                        <div class="cell">
-                            <div class="counter-value number-count" data-count="13121">1</div>
-                            <p class="counter-info">People Reached</p>
+                        <div class="col-lg-6" style="padding-top: 8%">
+                            <h3 style="font-size:2rem">
+                                Cerita Influencer
+                            </h3>
+                            <p style="color: #ffffff;font-size: 14px;margin-top: 8%">“Jadi Influencer di digiflux itu enak, ga mesti banyak followers,<br> tinggal nunggu ntar bakalan dihubungin kalau ada brand yang mau<br> di endorsin. Lumayan dapet penghasilan tambahan dari medsos.”</p>
+                            <p style="color: #ffffff;font-size: 14px;margin-top: 5%;"><span style="font-weight: 600;font-size: 16px">Putu Pradnya Shita Ambhika</span><br>Micro Influencer</p>
                         </div>
                     </div>
-                    <!-- end of counter -->
-                    
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of statistics -->
+    </div> <!-- end of basic-1 -->
 
-
-    <!-- Contact -->
-    <div id="contact" class="form">
+     <div id="section4" class="basic-1" style="background: url('assets/images/Bagian3.svg') center center no-repeat;">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>CONTACT</h2>
-                    <ul class="list-unstyled li-space-lg">
-                        <li class="address">Don't hesitate to give us a call or just use the contact form below</li>
-                        <li><i class="fas fa-map-marker-alt"></i>Surabaya,ID</li>
-                        <li><i class="fas fa-phone"></i><a class="blue" href="tel:003024630820">+62 720 2212</a></li>
-                        <li><i class="fas fa-envelope"></i><a class="blue" href="mailto:office@leno.com">admin@digiflux.id</a></li>
-                    </ul>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    
-                    <!-- Contact Form -->
-                    <form id="contactForm" data-toggle="validator" data-focus="false">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Your message</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree to Leno's stated conditions in <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
-                        </div>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
-                    <!-- end of contact form -->
-
-                </div> <!-- end of col -->
+            <h2>Frequently Asked Question</h2>
+            <div class="row" style="margin-left: 10%">
+                <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
+                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                    <div class="card-body">
+                        <img src="assets/images/icon1.svg" style="width: 12%;margin-bottom: 5%">
+                        <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Gimana cara<br> gabungnya?</p>
+                        <p class="card-text" style="color: #65A5EC;font-size: 12px;">Kamu cukup isi form yang disediakan, nanti tim Digiflux akan segera menghubungi kamu</p>
+                    </div>
+                </div>
+                </div> 
+                <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
+                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                    <div class="card-body">
+                        <img src="assets/images/icon2.svg" style="width: 12%;margin-bottom: 5%">
+                        <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Kalau udah daftar nanti gimana?</p>
+                        <p class="card-text" style="color: #65A5EC;font-size: 12px;">Cukup tunggu tim Digiflux hubungin kamu ya dear.</p>
+                    </div>
+                </div>
+                </div> 
+                <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
+                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                    <div class="card-body">
+                        <img src="assets/images/icon3.svg" style="width: 12%;margin-bottom: 5%">
+                        <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Syarat jadi influencer apa aja sih?</p>
+                        <p class="card-text" style="color: #65A5EC;font-size: 12px;">Untuk menjadi influencer di Digiflux kamu harus memiliki minimal 1500 followers di Instagram atau 10.000 pengikut di TikTok</p>
+                    </div>
+                </div>
+                </div> 
+            </div>
+            <div class="row" style="margin-left: 10%">
+                <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
+                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                    <div class="card-body">
+                        <img src="assets/images/icon4.svg" style="width: 12%;margin-bottom: 5%">
+                        <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Gimana caranya supaya dapat Endorsannya?</p>
+                        <p class="card-text" style="color: #65A5EC;font-size: 12px;">Kamu harus selalu aktif ya di media sosial, jangan lupa untuk sebarkan senyumanmu dear, dengan personal branding yang baik, brand akan tertarik denganmu.</p>
+                    </div>
+                </div>
+                </div> 
+                <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
+                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                    <div class="card-body">
+                        <img src="assets/images/icon5.svg" style="width: 12%;margin-bottom: 5%">
+                        <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Dari sosial media apa aja kak yang bisa gabung?</p>
+                        <p class="card-text" style="color: #65A5EC;font-size: 12px;">Untuk saat ini digiflux berfokus untuk berkerjasama dengan influencer Instagram dan TikTok.  Namun nantinya akan berkembang ya dear</p>
+                    </div>
+                </div>
+                </div> 
+                <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
+                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                    <div class="card-body">
+                        <img src="assets/images/icon6.svg" style="width: 12%;margin-bottom: 5%">
+                        <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Keuntungan cuma itu-itu aja?</p>
+                        <p class="card-text" style="color: #65A5EC;font-size: 12px;">Selain komisi, kamu juga akan mendapatkan teman komunitas influencer, yang mana nantinya kita juga akan memberikan pelatihan terkait personal branding</p>
+                    </div>
+                </div>
+                </div> 
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4" style="margin-top: 3%;margin-left: 5%">
+                    <a href="" class="btn-trans">Explore all </a>
+                </div>
+                <div class="col-lg-4"></div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of form -->
-    <!-- end of contact -->
+    </div> <!-- end of basic-1 -->
 
+    <div id="daftar" class="basic-1" style="background: url('assets/images/Bagian4.svg') center center no-repeat;">
+        <div class="container text-center">
+            <h2 style="color: #3E3E3E">Kapan lagi kesempatan datang 2x<br> Gabung bersama kami!</h2>
+            <div class="row" style="margin-left: 10%">
+                <div class="col-lg-6" style="margin-top: 3%;margin-right: -3%">
+                <div class="card" style="width: 90%;border-radius: 1rem;background-color: #65A5EC;padding-top: 3%;padding-bottom: 3%;border:0px">
+                    <div class="card-body">
+                        <p style="color: #ffffff;font-size: 20px;font-weight: 510">Gabung sebagai Brand</p>
+                        <p class="card-text" style="color: #ffffff;font-size: 12px;">Bangun Brand mu menjadi lebih besar<br>bersama Digiflux!</p>
+                        <a href="#" class="btn-white" >Daftar</a>
+                    </div>
+                </div>
+                </div> 
+                 <div class="col-lg-6" style="margin-top: 3%;margin-right: -3%">
+                <div class="card" style="width: 90%;border-radius: 1rem;background-color: #65A5EC;padding-top: 3%;padding-bottom: 3%;border:0px">
+                    <div class="card-body">
+                        <p style="color: #ffffff;font-size: 20px;font-weight: 510">Gabung sebagai Influencer</p>
+                        <p class="card-text" style="color: #ffffff;font-size: 12px;">Dapatkan banyaknya keuntungan,dan sebarkan<br> senyummu ke seluruh dunia!</p>
+                        <a href="#" class="btn-white" >Daftar</a>
+                    </div>
+                </div>
+                </div> 
+            </div>
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
 
+    <!-- Features -->
+  
     <!-- Footer -->
-    <div class="footer">
+    <div id="contact" class="footer" style="background: url('assets/images/Footer.svg') center center no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-col">
                         <!-- <h4>About Leno</h4> -->
-                        <img src="<?php echo e(asset('/assets/images/logo.png')); ?>" alt="alternative">
-                        <p><br>Reach orher growth together</p>
+                        <img src="<?php echo e(asset('/assets/images/logo.svg')); ?>" alt="alternative">
+                        <h3>We Build Smile!</h3>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-md-4">
-                    <div class="footer-col middle">
-                        <h4>Important Links</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Our business partners <a class="turquoise" href="#your-link">startupguide.com</a></div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Read our <a class="turquoise" href="terms-conditions.html">Terms & Conditions</a>, <a class="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
-                            </li>
-                        </ul>
-                    </div>
                 </div> <!-- end of col -->
                 <div class="col-md-4">
                     <div class="footer-col last">
-                        <h4>Social Media</h4>
+                        <h4 style="color: #f1f1f8">Social Media</h4>
                         <span class="fa-stack">
                             <a href="#your-link">
                                 <i class="fas fa-circle fa-stack-2x"></i>
@@ -545,7 +357,7 @@
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/digiflux.id/">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
@@ -563,22 +375,22 @@
     </div> <!-- end of footer -->  
     <!-- end of footer -->
 
-
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Inovatik</a> - All rights reserved</p> -->
-                    <p class="p-small">Copyright © 2020  - All rights reserved</p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
-    
-    	
     <!-- Scripts -->
+    <script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '428259248336390');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=428259248336390&ev=PageView&noscript=1"
+/></noscript>
     <script src="<?php echo e(asset('/assets/js/jquery.min.js')); ?>"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="<?php echo e(asset('/assets/js/popper.min.js')); ?>"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="<?php echo e(asset('/assets/js/bootstrap.min.js')); ?>"></script> <!-- Bootstrap framework -->

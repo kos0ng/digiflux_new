@@ -41,6 +41,82 @@ Colors:
 /******************************/
 /*     01. General Styles     */
 /******************************/
+
+
+.btn-custom {
+	display: inline-block;
+	padding: 1.2rem 2rem 1.2rem 2rem;
+	border-radius: 0.75rem;
+	background-color: #F1E4FF;
+	color: #65A5EC;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.btn-custom:hover {
+	background-color: transparent;
+	border: 0.075rem solid #65A5EC;
+	color: #65A5EC;
+	text-decoration: none;
+}
+
+.btn-white {
+	display: inline-block;
+	padding: 1.2rem 4rem 1.2rem 4rem;
+	border-radius: 0.75rem;
+	background-color: #ffffff;
+	color: #65A5EC;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.btn-white:hover {
+	background-color: transparent;
+	border: 0.075rem solid white;
+	color: white;
+	text-decoration: none;
+}
+
+.btn-trans {
+	display: inline-block;
+	padding: 1.25rem 1rem 1.25rem 1rem;
+	border-radius: 0.5rem;
+	background-color: transparent;
+	color: #ffffff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	border: 0.075rem solid #ffffff;
+	transition: all 0.2s ease;
+}
+
+.btn-trans:hover {
+	background-color: white;
+	color: #65A5EC;
+	text-decoration: none;
+}
+
+
+.btn-custom-blue {
+	display: inline-block;
+	padding: 1.2rem 2rem 1.2rem 2rem;
+	border-radius: 0.75rem;
+	background-color: #65A5EC;
+	color: #ffffff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.btn-custom-blue:hover {
+	background-color: transparent;
+	border: 0.075rem solid #65A5EC;
+	color: #65A5EC;
+	text-decoration: none;
+}
+
+
 body,
 html {
     width: 100%;
@@ -76,23 +152,23 @@ body, p {
 }
 
 h1 {
-	color: #f1f1f8;
+	color: #525252;
 	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
 }
 
 h2 {
-	color: #f1f1f8;
+	color: #ffffff;
 	font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
 }
 
 h3 {
-	color: #f1f1f8;
-	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+	color: #ffffff;
+	font: 600 1.25rem/2.125rem "Montserrat", sans-serif;
 }
 
 h4 {
-	color: #f1f1f8;
-	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+	color: #18191F;
+	font: 550 1.375rem/1.75rem "Montserrat", sans-serif;
 }
 
 h5 {
@@ -643,7 +719,8 @@ input[type='checkbox'] {
 .navbar-custom {
 	background-color: #4633af;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 700 1.05rem/2rem "Montserrat", sans-serif;
+	font: 1.05rem/2rem "Montserrat", sans-serif;
+	font-weight: 550;
 	transition: all 0.2s ease;
 }
 
@@ -764,8 +841,8 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/header-background.png') ;
-	background-size: cover;
+	background-image: url('../images/Bagian1.svg');
+	/*background-size: cover;*/
 }
 
 .header .header-content {
@@ -800,7 +877,7 @@ input[type='checkbox'] {
 /*     05. Testimonials     */
 /****************************/
 .slider-1 {
-	padding-top: 6.875rem;
+	padding-top: 8rem;
 	padding-bottom: 6.375rem;
 	background-color: #ffffff;
 }
@@ -1010,7 +1087,7 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
-	background: url('../images/video-background.jpg') center center no-repeat;
+	background: url('../images/Bagian2.svg') center center no-repeat;
 	background-size: cover; 
 }
 
@@ -1418,7 +1495,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #00c9db;
+    color: #65A5EC;
 }
 
 
@@ -1450,7 +1527,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00c9db url("../images/up-arrow.png") no-repeat center 47%;
+	background: #65A5EC url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1556,9 +1633,9 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar-custom {
-		padding: 2.125rem 1.5rem 2.125rem 2rem;
-		box-shadow: none;
-        background: transparent;
+		/*padding-top: 0.1rem;*/
+		box-shadow: 0px 2px 2px #F1E4FF;
+        background: white;
 	}
 	
 	.navbar-custom .navbar-brand.logo-text {
@@ -1570,19 +1647,20 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .nav-item .nav-link {
-		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-		color: #fff;
+		padding: 0.25rem 1rem 0.25rem 1rem;
+		color: #4B4B4B;
+		font-size: 14px;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #00c9db;
+		color: #65A5EC;
 	}
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #050B38;
+		background-color: #ffffff;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1590,12 +1668,12 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #fff;
+		color: #4B4B4B;
 	}
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00c9db;
+		color: #65A5EC;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1788,8 +1866,8 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 13rem;
-		padding-bottom: 10rem;
+		padding-top: 10rem;
+		padding-bottom: 0rem;
 		text-align: left;
 	}
 
@@ -1950,7 +2028,7 @@ a:hover.back-to-top {
 	
 	/* Navigation */
 	.navbar-custom {
-		padding: 2.125rem 5rem 2.125rem 5rem;
+		padding: 1rem 7rem 1rem 7rem;
 	}
 
 	.navbar-custom.top-nav-collapse {
@@ -2104,3 +2182,4 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
