@@ -88,12 +88,12 @@
 
 
     <!-- Header -->
-    <header id="header" class="header">
+    <header id="header" class="header" style="background: url('assets/images/Bagian1.svg') center center no-repeat;">
         <div class="header-content">
             <div class="container">
                 <div class="row" style="margin-top: -5%;">
                     <div class="col-lg-12 text-center">
-                        <div class="text-container">
+                        <div class="text-container" style="margin-left: 0">
                             <h1>Semua bisa jadi influencer!</h1>
                             <p style="color: #525252;font-size: 16px;">Dapatkan wawasan self branding, buat kontenmu makin keren,<br> dan hasilkan passive income dari media sosialmu!</p>
                             <a class="btn-custom-blue page-scroll" href="#header2" style="margin-top: 1%;padding:1.5rem 1rem 1.5rem 1rem;">Gabung Sekarang!</a>
@@ -103,7 +103,7 @@
                             <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a> -->
                         </div>
                         <div class="d-flex justify-content-center">
-                            <img src="assets/images/HERO1.svg" class="img-fluid" style="padding-top: 5%;margin-left: 3%">
+                            <img src="assets/images/HERO1.svg" class="img-fluid" style="padding-top: 5%;">
                         </div>
                     </div> 
                 </div> <!-- end of row -->

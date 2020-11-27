@@ -1088,7 +1088,7 @@ input[type='checkbox'] {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
 	background: url('../images/Bagian2.svg') center center no-repeat;
-	background-size: cover; 
+	/*background-size: cover; */
 }
 
 .basic-1 h2 {
