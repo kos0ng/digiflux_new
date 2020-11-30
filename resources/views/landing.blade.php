@@ -30,7 +30,8 @@
 	<link href="{{ asset('/assets/css/styles.css')}}" rel="stylesheet">
 	
 	<!-- Favicon  -->
-    <link rel="icon" href="{{ asset('/assets/images/icon.png')}}">
+    {{-- <link rel="icon" href="{{ asset('/assets/images/icon.png')}}"> --}}
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -88,7 +89,7 @@
 
 
     <!-- Header -->
-    <header id="header" class="header" style="background: url('assets/images/Bagian1.svg') center center no-repeat;">
+    <header id="header" class="header">
         <div class="header-content">
             <div class="container">
                 <div class="row" style="margin-top: -5%;">
@@ -123,7 +124,7 @@
                 <div class="col-lg-12" style="margin-top: 5%">
                     <div class="row">
                         <div class="col-lg-1">
-                            <img src="{{ asset('/assets/images/check.png')}}" style="width: 100%">
+                            <img src="{{ asset('/assets/images/check.png')}}"class="img-check">
                         </div>
                         <div class="col-lg-5">
                             <h3>
@@ -202,7 +203,7 @@
     </div> <!-- end of slider-1 -->
     <!-- end of testimonials -->
 
- <div id="section3" class="basic-1" style="background: url('assets/images/Testimoni.svg') center center no-repeat;padding-bottom:0rem;padding-top: 4rem">
+ <div id="section3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12" style="margin-top: 0%">
@@ -212,12 +213,12 @@
                                 <img src="assets/images/influencer.svg" class="img-fluid" style="width: 60%">
                             </div>
                         </div>
-                        <div class="col-lg-6" style="padding-top: 8%">
-                            <h3 style="font-size:2rem">
+                        <div class="col-lg-6 small-center" style="padding-top: 8%">
+                            <h3 style="font-size:2rem;color: #525252" >
                                 Cerita Influencer
                             </h3>
-                            <p style="color: #ffffff;font-size: 14px;margin-top: 8%">“Jadi Influencer di digiflux itu enak, ga mesti banyak followers,<br> tinggal nunggu ntar bakalan dihubungin kalau ada brand yang mau<br> di endorsin. Lumayan dapet penghasilan tambahan dari medsos.”</p>
-                            <p style="color: #ffffff;font-size: 14px;margin-top: 5%;"><span style="font-weight: 600;font-size: 16px">Putu Pradnya Shita Ambhika</span><br>Micro Influencer</p>
+                            <p style="color: #525252;font-size: 14px;margin-top: 8%">“Jadi Influencer di digiflux itu enak, ga mesti banyak followers,<br> tinggal nunggu ntar bakalan dihubungin kalau ada brand yang mau<br> di endorsin. Lumayan dapet penghasilan tambahan dari medsos.”</p>
+                            <p style="color: #525252;font-size: 14px;margin-top: 5%;"><span style="font-weight: 600;font-size: 16px">Putu Pradnya Shita Ambhika</span><br>Micro Influencer</p>
                         </div>
                     </div>
                 </div> <!-- end of col -->
@@ -225,12 +226,12 @@
         </div> <!-- end of container -->
     </div> <!-- end of basic-1 -->
 
-     <div id="section4" class="basic-1" style="background: url('assets/images/Bagian3.svg') center center no-repeat;">
+     <div id="section4">
         <div class="container">
             <h2>Frequently Asked Question</h2>
             <div class="row" style="margin-left: 10%">
                 <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
-                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                <div class="card card-faq" style="width: 90%;border-radius: 1rem;">
                     <div class="card-body">
                         <img src="assets/images/icon1.svg" style="width: 12%;margin-bottom: 5%">
                         <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Gimana cara<br> gabungnya?</p>
@@ -239,7 +240,7 @@
                 </div>
                 </div> 
                 <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
-                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                <div class="card card-faq" style="width: 90%;border-radius: 1rem;">
                     <div class="card-body">
                         <img src="assets/images/icon2.svg" style="width: 12%;margin-bottom: 5%">
                         <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Kalau udah daftar nanti gimana?</p>
@@ -248,7 +249,7 @@
                 </div>
                 </div> 
                 <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
-                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                <div class="card card-faq" style="width: 90%;border-radius: 1rem;">
                     <div class="card-body">
                         <img src="assets/images/icon3.svg" style="width: 12%;margin-bottom: 5%">
                         <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Syarat jadi influencer apa aja sih?</p>
@@ -259,7 +260,7 @@
             </div>
             <div class="row" style="margin-left: 10%">
                 <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
-                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                <div class="card card-faq" style="width: 90%;border-radius: 1rem;">
                     <div class="card-body">
                         <img src="assets/images/icon4.svg" style="width: 12%;margin-bottom: 5%">
                         <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Gimana caranya supaya dapat Endorsannya?</p>
@@ -268,7 +269,7 @@
                 </div>
                 </div> 
                 <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
-                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                <div class="card card-faq" style="width: 90%;border-radius: 1rem;">
                     <div class="card-body">
                         <img src="assets/images/icon5.svg" style="width: 12%;margin-bottom: 5%">
                         <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Dari sosial media apa aja kak yang bisa gabung?</p>
@@ -277,7 +278,7 @@
                 </div>
                 </div> 
                 <div class="col-lg-4" style="margin-top: 3%;margin-right: -3%">
-                <div class="card" style="width: 90%;border-radius: 1rem;height: 16rem">
+                <div class="card card-faq" style="width: 90%;border-radius: 1rem;">
                     <div class="card-body">
                         <img src="assets/images/icon6.svg" style="width: 12%;margin-bottom: 5%">
                         <p style="color: #65A5EC;font-size: 18px;font-weight: 510">Keuntungan cuma itu-itu aja?</p>
@@ -287,14 +288,14 @@
                 </div> 
                 <div class="col-lg-4"></div>
                 <div class="col-lg-4" style="margin-top: 3%;margin-left: 5%">
-                    <a href="" class="btn-trans">Explore all </a>
+                    <a href="#" class="btn-trans">Explore all </a>
                 </div>
                 <div class="col-lg-4"></div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of basic-1 -->
 
-    <div id="daftar" class="basic-1" style="background: url('assets/images/Bagian4.svg') center center no-repeat;">
+    <div id="daftar">
         <div class="container text-center">
             <h2 style="color: #3E3E3E">Kapan lagi kesempatan datang 2x<br> Gabung bersama kami!</h2>
             <div class="row" style="margin-left: 10%">
@@ -312,7 +313,7 @@
                     <div class="card-body">
                         <p style="color: #ffffff;font-size: 20px;font-weight: 510">Gabung sebagai Influencer</p>
                         <p class="card-text" style="color: #ffffff;font-size: 12px;">Dapatkan banyaknya keuntungan,dan sebarkan<br> senyummu ke seluruh dunia!</p>
-                        <a href="#" class="btn-white" >Daftar</a>
+                        <a href="https://intip.in/FormInfluencerDigiflux/" class="btn-white" >Daftar</a>
                     </div>
                 </div>
                 </div> 
@@ -339,21 +340,15 @@
                     <div class="footer-col last">
                         <h4 style="color: #f1f1f8">Social Media</h4>
                         <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="#">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-google-plus-g fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.facebook.com/Digiflux.id">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">
@@ -363,9 +358,14 @@
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="#">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://vt.tiktok.com/ZSgTh8Pd/">
+                                <img src="assets/images/tiktok.png" class="img-fluid">
                             </a>
                         </span>
                     </div> 
@@ -376,6 +376,15 @@
     <!-- end of footer -->
 
     <!-- Scripts -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8029V1ESWX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8029V1ESWX');
+</script>
     <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
